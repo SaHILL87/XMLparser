@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <!-- Root element containing books -->
+    <book id="1" genre="fiction">
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <published year="1925" />
+        <description>A story of the Jazz Age in 1920s America.</description>
+    </book>
+    <book id="2" genre="science">
+        <title>A Brief History of Time</title>
+        <author>Stephen Hawking</author>
+        <published year="1988" />
+        <description>An overview of cosmology and the nature of the universe.</description>
+    </book>
+    <book id="3" genre="fantasy">
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <published year="1937" />
+        <description>A timeless tale of adventure.</description>
+    </book>
+    <emptyTag example="self-closing" />
+    <nestedExample>
+        <level1>
+            <level2>
+                <level3>Deeply nested text</level3>
+            </level2>
+        </level1>
+    </nestedExample>
+</library>
